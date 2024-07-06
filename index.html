@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=test, initial-scale=1.0">
+      <title>M.Ahmed Afrasiab </title>
+      <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="Container">
+            <a class="logo" href="#">Remember  <span>That</span></a>
+                <img id="mobile-cta" class="mobile-menu" src="Images/menu.svg" alt="Open Navigation">
+
+                <nav>
+                    <img id="mobile-exit" class="mobile-menu-exit" src="Images/icons8-cross-50 (1).png" alt="close navigation">
+                    <ul class="primary-nav">
+                        <li class="current"><a href="#">home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+
+                    <ul class="secondary-nav">
+                        <li class="current"><a href="#">Contact</a></li>
+                        <li class="go-premium-cta"><a href="#">Go Premuim</a></li>
+                        
+                    </ul>
+
+                </nav>
+
+            
+
+                
+            </div>
+    </div>
+    <section class="Hero">
+        <div class="Container">
+            <div class="left-col">
+                <p class="subheading">It's Ahmed &amp; Afrasiab</p>
+                <h1>A Task App That Doesn't Stink</h1> 
+
+                <div class="hero-cta">
+                    <a href="" class="primary-cta">Try It For Free</a>
+                    <a href="" class="Watch-video-cta">
+                        <img src="Images/watch.svg" alt="Wacth a video">Watch a Video
+                </div>
+            </div>
+            <img src="Images/illustration.svg" class="hero-img" alt="Illustration">
+        </div> 
+
+    </section>
+
+    <secton class="section1">
+        <div class="container">
+            <ul class="features-list"> 
+                <li>Unlimited Tasks </li>
+                <li>SMS Task Reminders</li>
+                <li>Confetti Explosions upon Task Completions</li>
+                <li>Social Media Announcements</li>
+                <li>Real Time Collaboration</li>
+                <li>Other awesome features</li>
+            </ul>
+            <img src="Images/holding-phone.jpg" alt="Man holding phone">
+        </div> 
+    </secton>
+
+    <section class="testimonial-section"> 
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="Images/person.jpg" alt="person">
+
+                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+                        - Jane Doe</blockquote>
+                        <cite>- jane doe</cite>
+                    
+                    
+                </li>
+                <li>
+                    <img src="Images/person.jpg" alt="person">
+
+                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+                        - Jane Doe</blockquote>
+                        <cite>- jane doe</cite>
+                    
+                    
+                </li>
+                <li>
+                    <img src="Images/person.jpg" alt="person">
+
+                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+                        - Jane Doe</blockquote>
+                        <cite>- jane doe</cite>
+                    
+                    
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact</h2>
+
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="Name" name="name" placeholder="Your Good Name"> 
+                    
+                    <label for="Email">Email</label>
+                    <input type="Email" id="Email" name="Email" placeholder="Your Email"> 
+                    <label for="Message">Message</label>
+                    <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+                    <input type="Sumbit" class="Send-Message-cta" value="SendMessage">
+                </form>
+            </div>
+            <div class="contactright">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6875081.471853019!2d65.67985517500003!3d32.7133352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e83abf8317e19%3A0x24e3419d39a41419!2sLos%20Santos%20Detailing%20%2C%20Customs%20%26%20Car%20Wash!5e0!3m2!1sen!2s!4v1720031281117!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>
+        </div>
+    </section>
+
+    <!--====================SCRIPT------------>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit')
+
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+
+    })
+
+
+    mobileBtnExit.addEventListener('click', () => {
+        nav.classList.remove('menu-btn');
+        
+    })   
+            
+        
+    </script>
+
+    <!--====================SCRIPT------------>
+</body>
+</html>
