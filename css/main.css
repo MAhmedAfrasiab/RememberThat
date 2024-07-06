@@ -246,7 +246,7 @@ nav{
 }
 
  .mobile-menu-exit{
-    float: right;
+    float: left;
     margin: .5em;
     cursor: pointer;
  }
