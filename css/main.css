@@ -4,6 +4,7 @@
     --primary-color:#007af3;
 
 }
+
 body{
     background: #f2f2f2;
     margin: 0;
@@ -25,7 +26,7 @@ body{
 
         }
     }
-    
+} 
    nav {
     display: none; 
     }
@@ -39,7 +40,7 @@ body{
         cursor: pointer;
           
     }
-}
+
 
 a {
     color: #444444;
