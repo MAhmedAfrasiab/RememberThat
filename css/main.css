@@ -219,7 +219,7 @@ nav.menu-btn{
 nav{
     position: fixed;
     z-index:999;
-    width: 100%;
+    width: 60%;
     right: 0;
     top: 0;
     background: #111920;
